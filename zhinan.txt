@@ -1,0 +1,78 @@
+npm i nrm -g
+
+nrm ls
+
+nrm use npm
+$ npm install --save-dev bootstrap
+(npm i webpack -g)
+推荐 vue-cli
+
+npm install vue
+ npm install -g @vue/cli
+npm install -g vue-cli
+vue create hello
+vue init webpack paroject(生成模板）
+
+npm i(生成modules）
+
+npm run dev
+
+npm run dev
+
+npm run build
+
+//npm i node-sass sass-loader --save-dev
+
+cnpm install vue-router
+npm i vue-resource -S
+npm intall mint-ui --save
+npm i comment
+2.npm install babel-plugin-component -D 
+
+
+中找到“path”->选中“path”并选择“编辑”
+将1中找到的bin和git-core路径复制到其中->保存并退出。
+{
+    "terminal":"C:\\Windows\\System32\\cmd.exe",    
+}
+
+ npm install babel-plugin-transform-remove-strict-mode        （https://github.com/genify/babel-plugin-transform-remove-strict-mode）
+
+npm i vue-preview -S       缩略图
+
+新闻列表
+http://www.liulongbin.top:3005/api/getnewslist
+
+商品列表
+http://www.liulongbin.top:3005/api/getprodlist
+
+
+
+
+
+
+npm install vuex -S
+
+
+import Vuex from 'vuex'
+Vue.use(Vuex)
+
+
+
+
+var store=new Vuex.Store({
+state:{
+	count:10
+},
+mutations:{
+
+ increment(state){
+ 	count++;
+ },
+ gettersL{}
+
+
+})
+
+
+
