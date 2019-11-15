@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2019-09-27 20:00:30
+ * @version $Id$
+ */
+.thumbs{
+	display: flex;
+}
+
+.thumbs > div {
+	width: 100%;
+}
+
+.thumbs .my-gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.thumbs .my-gallery figure{
+
+	margin: 0px;
+	box-shadow: 0 0 10 px #ccc;
+}
+
+.thumbs .my-gallery figure img{
+	width: 100px;
+	vertical-align: middle;
+}
